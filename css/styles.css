@@ -71,3 +71,19 @@ footer .col-sm-12 {
     border-top: 1px solid #1a1a1a;
 }
 
+
+@media screen and (max-width: 680px) {
+    .display-1 {
+        font-size: 3rem;
+    }
+    .display-1 {
+        font-size: 3rem;
+    }
+    .display-5 {
+        font-size: 1.5rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+
+}
