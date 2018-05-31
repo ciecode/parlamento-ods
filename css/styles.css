@@ -15,6 +15,18 @@ a:focus {
     color: #020202;
 }
 
+.alert {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0rem;
+    z-index: 999;
+    border-radius: 0px;
+    background: #bb7144;
+    color: #020202;
+    font-weight: bold;
+}
+
 header {
     background: #bb7144 url('../images/joakim-honkasalo-587350-unsplash.jpg') no-repeat center fixed;
     padding: 120px 10px;

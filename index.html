@@ -23,6 +23,13 @@
     <!--     <a href="#" data&#45;language="en">EN</a> -->
     <!-- </div> -->
 
+    <div class="alert alert-dismissible text-center">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <h4 class="alert-heading">We use Google Analytics Cookie</h4>
+        <p class="mb-0">If you continue on this site you give us permission to use Google Analytics to improve our service.</p>
+    </div>
+    
+
     <header>
         <div class="container">
             <div class="row">
@@ -146,6 +153,9 @@
         src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
     <script type="text/javascript" src="js/jquery.i18n.js"></script>
     <script type="text/javascript" src="js/jquery.i18n.emitter.js"></script>
     <script type="text/javascript" src="js/jquery.i18n.fallbacks.js"></script>
@@ -158,6 +168,17 @@
             $.i18n().locale = $(this).attr('data-language');
         });
     </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75990858-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-75990858-2');
+    </script>
+
     
     
 
